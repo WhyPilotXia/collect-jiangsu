@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Ionic App</title>
+
+  <base href="/" />
+
+  <meta name="color-scheme" content="light dark" />
+  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+
+  <link rel="icon" type="image/png" href="assets/icon/favicon.png" />
+
+  <!-- add to homescreen for ios -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+  <script src="./assets/hh/rollups/tripledes.js"></script>
+  <script src="./assets/hh/components/mode-ecb.js"></script>
+  <script>
+      //DES 加密
+      function encryptByDES(message, key) {
+          var keyHex = CryptoJS.enc.Utf8.parse(key);
+          var encrypted = CryptoJS.DES.encrypt(message, keyHex, {
+              mode: CryptoJS.mode.ECB,
+              padding: CryptoJS.pad.Pkcs7
+          });
+          return encrypted.toString();
+      }
+      //DES 解密
+      function decryptByDES(ciphertext, key) {
+          var keyHex = CryptoJS.enc.Utf8.parse(key);
+          // direct decrypt ciphertext
+          var decrypted = CryptoJS.DES.decrypt({
+              ciphertext: CryptoJS.enc.Base64.parse(ciphertext)
+          }, keyHex, {
+              mode: CryptoJS.mode.ECB,
+              padding: CryptoJS.pad.Pkcs7
+          });
+          return decrypted.toString(CryptoJS.enc.Utf8);
+      }
+  </script>
+</head>
+<body>
+  <app-root></app-root>
+<script src="runtime-es2015.js" type="module"></script><script src="runtime-es5.js" nomodule defer></script><script src="polyfills-es5.js" nomodule defer></script><script src="polyfills-es2015.js" type="module"></script><script src="styles-es2015.js" type="module"></script><script src="styles-es5.js" nomodule defer></script><script src="scripts.js" defer></script><script src="vendor-es2015.js" type="module"></script><script src="vendor-es5.js" nomodule defer></script><script src="main-es2015.js" type="module"></script><script src="main-es5.js" nomodule defer></script></body>
+
+</html>

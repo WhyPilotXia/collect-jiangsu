@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="144.516" height="240.725" viewBox="0 0 144.516 240.725">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00d4ff"/>
+      <stop offset="0.054" stop-color="#63b6ff"/>
+      <stop offset="1" stop-color="#fffcfc"/>
+    </linearGradient>
+  </defs>
+  <path id="联合_1" data-name="联合 1" d="M0,240.725s28.272-16.877,39.852-61.23C50.674,138.041,55.15,71.8,55.689,63.312H6.674L72.674,0l66,63.312H89.823c.273,6.753,3.254,74.787,14.25,116.9,11.58,44.353,40.442,60.51,40.442,60.51Z" fill="url(#linear-gradient)"/>
+</svg>

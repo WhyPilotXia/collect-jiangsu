@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="443.115" height="349.771" viewBox="0 0 443.115 349.771">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1890ff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0e9cfb" stop-opacity="0.22"/>
+    </radialGradient>
+  </defs>
+  <g id="组_35" data-name="组 35" transform="translate(3376.957 -12183.741)">
+    <g id="组_34" data-name="组 34" transform="translate(919.142 867.149)">
+      <path id="箱子" d="M76.239,35.827l-64.1,30.146,67,29.712L144.743,66.5ZM11.716,139.7l63.423,31.124V101.46L11.716,74.348ZM31.754,97.352l25.178,12.317-.149,9.71L31.611,107.061l.143-9.71Zm51.575,4.108v69.169l63.388-32.713V72.959Z" transform="translate(-4307.716 11495.535)" fill="#1890ff"/>
+      <path id="转运计划" d="M451.236,328.429l59.137,63.154H474.762c-4.392,26.787-19.778,51.555-45.339,71.682-28.241,22.19-65.142,33.425-111.3,34.907V455.425c33.378-1.289,58.814-8.893,77.972-23.973C412.9,418.2,420.911,404.3,424.336,391.6h-33.75l60.675-63.176ZM260.351,149.792v42.747c-33.378,1.289-58.814,8.893-77.972,23.973-16.825,13.254-24.816,27.152-28.241,39.847h33.75l-60.675,63.154L68.1,256.36h35.611c4.392-26.765,19.778-51.555,45.339-71.661C177.242,162.509,214.193,151.274,260.351,149.792Z" transform="translate(-4364.2 11166.8)" fill="#1890ff"/>
+      <path id="箱子-2" data-name="箱子" d="M76.239,35.827l-64.1,30.146,67,29.712L144.743,66.5ZM11.716,139.7l63.423,31.125V101.46L11.716,74.348ZM31.754,97.352l25.178,12.317-.149,9.71L31.611,107.061l.143-9.71Zm51.575,4.108v69.169l63.388-32.713V72.959Z" transform="translate(-3999.7 11281.173)" fill="#1890ff"/>
+    </g>
+    <ellipse id="椭圆_1" data-name="椭圆 1" cx="97" cy="98" rx="97" ry="98" transform="translate(-3246 12264)" opacity="0.55" fill="url(#radial-gradient)"/>
+    <text id="开_始_换_箱" data-name="开 始
+换 箱" transform="translate(-3209 12341)" fill="#1890ff" font-size="52" font-family="MicrosoftYaHei-Bold, Microsoft YaHei" font-weight="700"><tspan x="0" y="0">开 始</tspan><tspan x="0" y="69">换 箱</tspan></text>
+  </g>
+</svg>
